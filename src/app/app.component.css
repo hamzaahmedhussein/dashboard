@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #FFFFFF;
+  flex-wrap: wrap;  
+  padding-left: 120px;
+  z-index: 10;  
+}
+
+
+
+
+
+.main-body{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F9F5F3;
+
+}
+
+.mid-section{
+  flex: 70%;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: end;
+  background-color: #F9F5F3;
+}
+
+.list{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: end;
+  background-color: #F9F5F3;
+}
+.right-section{
+  flex: 30%;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  background-color:#F9F5F3;
+  flex-direction: column;
+}
+
+.inner-mid-section{
+  flex-basis: 85%;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F9F5F3;
+  
+}
+.main-card {
+  background-color: #FFFFFF;  
+  padding: 35px 30px;             
+  border-radius: 10px;        
+  text-align: center;         
+  width: 200px;   
+  height: 120px;        
+  margin: 10px auto;         
+  font-family: Arial, sans-serif;
+  color: #333;    
+  line-height: 0.5;
+}
+
+.main-card .value {
+  font-size: 2em;           
+  color: #3D5161;  
+  padding: 10px ;  
+}
+
+.description{
+  text-align: start;
+  font-weight:700;
+  color: #3D5161;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+
+.progress-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;                
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 45px ;
+}
+
+.progress-item {
+  display: flex;
+  flex-direction: column;   
+  align-items: flex-start;  
+  gap: 5px;              
+}
+
+.progress-label {
+  color: #3D5161;   
+  display: flex;    
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+    
+}
+
+mat-progress-bar {
+  height: 8px;
+  width: 100%;
+}
+.sidebar {
+  width: 80px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #FF7F5C; 
+  color: #fff;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;  
+  justify-content: space-between;
+  padding-top: 20px;
+  border-radius:0 30px 30px 0;
+  z-index: 5;
+
+}
+
+@media (max-width: 1350px) {
+  nav{
+     flex-direction: column;  
+     align-items: center;  
+     justify-content: center;
+     flex-wrap: wrap; 
+     gap: 15px; 
+ 
+  
+     padding-left: 50px;
+ 
+   }
+ }
+
+@media (max-width: 1024px) {
+ nav{
+    flex-direction: column;  
+    align-items: center;  
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 15px; 
+
+ 
+    padding-left: 50px;
+
+  }
+}
+
+@media (max-width: 768px) {
+ nav{
+    flex-direction: column;  
+    gap: 10px;  
+    align-items: center;  
+    justify-content: center; 
+
+ 
+    padding-left: 50px;
+
+  }
+
+}
+
+@media (max-width: 480px) {
+nav  {
+    flex-direction: column;  
+    gap: 8px;  
+    align-items: center;  
+    justify-content: center;
+ 
+    padding-left: 50px;
+
+  }
+
+}
