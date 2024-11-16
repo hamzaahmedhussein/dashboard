@@ -174,7 +174,8 @@ mat-progress-bar {
     justify-content: center; 
 
  
-    padding-left: 50px;
+    padding-left: 80px;
+    padding-right: 50px;
 
   }
 
@@ -187,7 +188,9 @@ nav  {
     align-items: center;  
     justify-content: center;
  
-    padding-left: 50px;
+    padding-left: 80px;
+    padding-right: 50px;
+
 
   }
 
